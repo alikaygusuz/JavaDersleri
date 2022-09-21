@@ -12,11 +12,10 @@ public class Main {
 		System.out.println(ortaMetin);
 		System.out.println(altMetin );
 		
-		int vade = 12;
+
 		double dolarDun = 18.15;
 		double dolarBugun = 18.10;
 		String okYonu = "";
-		boolean dolardustuMu = true;
 		
 		if (dolarBugun<dolarDun) {
 			okYonu = "down.svg";
