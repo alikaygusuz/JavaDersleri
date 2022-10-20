@@ -20,7 +20,7 @@ public class Main {
 
         Company company = new Company();
         company.setTaxNumber("456412896542");
-        company.
+
 
 
         CustomerManager customerManager = new CustomerManager(customer);
