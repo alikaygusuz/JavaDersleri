@@ -23,7 +23,7 @@ public class Main {
         CategoryManager categoryManager = new CategoryManager(new JdbcCatagoryDao(), loggers);
         Category category = new Category(1, "java");
         categoryManager.add(category);
-        Category category_ = new Category(2, "java");
+        Category category_ = new Category(2, "python");
         categoryManager.add(category_);
         Course course=new Course(1,"java","Engin Demiroğ", 0);
         CourseManager courseManager=new CourseManager(new HibernateCourseDao(), loggers);
